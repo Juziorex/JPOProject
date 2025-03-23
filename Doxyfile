@@ -1,0 +1,45 @@
+# Doxyfile - konfiguracja Doxygen dla projektu
+
+# Nazwa projektu
+PROJECT_NAME           = "Stacje Pomiarowe"
+
+# Krótki opis projektu
+PROJECT_BRIEF          = "Aplikacja do wyszukiwania i analizy stacji pomiarowych jakości powietrza."
+
+# Wersja projektu
+PROJECT_NUMBER         = "1.0"
+
+# Ścieżka do plików źródłowych
+INPUT                  = ./
+
+# Włącz rekursywne przeszukiwanie katalogów
+RECURSIVE              = YES
+
+# Włącz generowanie dokumentacji dla nieudokumentowanych elementów
+EXTRACT_ALL            = YES
+
+# Generuj dokumentację w formacie HTML
+GENERATE_HTML          = YES
+
+# Ścieżka do wygenerowanej dokumentacji HTML
+HTML_OUTPUT            = html
+
+# Generuj dokumentację w formacie LaTeX (opcjonalne)
+GENERATE_LATEX         = NO
+
+# Włącz generowanie diagramów (jeśli Graphviz jest zainstalowany)
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+
+# Włącz generowanie dokumentacji dla prywatnych metod i zmiennych
+EXTRACT_PRIVATE        = YES
+
+# Włącz generowanie dokumentacji dla statycznych metod i zmiennych
+EXTRACT_STATIC         = YES
+
+# Włącz generowanie dokumentacji dla lokalnych metod
+EXTRACT_LOCAL_METHODS  = YES
+
+# Dodajemy obsługę plików QML
+FILE_PATTERNS          = *.cpp *.h *.qml
+EXTENSION_MAPPING      = qml=QML
